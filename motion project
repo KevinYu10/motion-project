@@ -1,0 +1,114 @@
+//color
+color darkPurple = #230F2B;
+color pink = #F21D41;
+color lightGreen = #EBEBBC;
+color mediumGreen = #BCE3C5;
+color darkGreen = #82B3AE;
+
+//clicking project
+
+//int toggle;
+
+//void setup () {
+//  size(800, 600);
+//  strokeWeight(5);
+//  textSize(30);
+//  toggle = 1;
+//}
+
+//void draw () {
+//  background(darkPurple);
+  
+//  fill(darkGreen);
+//  stroke(lightGreen);
+//  rect(300, 250, 200, 100);
+//  if (toggle > 0) {
+//  guidelines();
+//  }
+//}
+
+//void mouseReleased () {
+//  if (mouseX > 300 && mouseX < 500 && mouseY > 250 && mouseY < 350) {
+//  toggle = toggle * -1;
+//  }
+//}
+
+//void guidelines () {
+//  fill(pink);
+//  stroke(pink);
+//  line(0, mouseY, width, mouseY);
+//  line(mouseX, 0, mouseX, height);
+//}
+
+
+//slider project
+
+//float sliderX;
+//float shade;
+
+//void setup () {
+//  size(800, 600);
+//  strokeWeight(5);
+//  stroke(pink);
+//  fill(pink);
+//  sliderX = 400;
+//  shade = 0;
+//}
+
+//void draw () {
+//  background(shade);
+
+//  shade = map(sliderX, 100, 700, 0, 255);
+  
+//  line(100, 300, 700, 300);
+//  circle(sliderX, 300, 50);
+//}
+
+//void mouseReleased () {
+//  control();
+//}
+
+//void mouseDragged () {
+//  control();
+//}
+
+//void control () {
+//  if (mouseX > 100 && mouseX < 700 && mouseY > 275 && mouseY < 325) {
+//    sliderX = mouseX;
+//  }
+//}
+
+
+//test project
+
+float testmark;
+float percent;
+
+void setup () {
+  size(800, 600);
+  textAlign(CENTER, CENTER);
+  testmark = 20;//out of 29
+  percent = map(testmark, 0, 29, 0, 100);
+}
+
+void draw() {
+  background(0);
+  textSize(100);
+  text(percent, 400, 300);
+}
+
+
+//drawing project
+
+//void setup () {
+//  size(600, 600);
+//  background(255);
+//}
+
+//void draw () {
+
+//}
+
+//void mouseDragged () {
+//  line(pmouseX, pmouseY, mouseX, mouseY);
+//}
